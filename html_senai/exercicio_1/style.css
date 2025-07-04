@@ -1,0 +1,32 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+.nome{
+    color: green;
+    font-size: 40px;
+    text-align: center;
+}
+
+.link{
+    text-align: center;
+}
+
+
+p{
+    color: rgb(56, 66, 56);
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler;
+    text-align: center;
+}
+
+.text{
+    font-family: Arial;
+    text-align: center;
+    color: green
+    
+}
+
+.tucano{
+    text-align: center;
+}
