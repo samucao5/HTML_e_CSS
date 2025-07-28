@@ -1,0 +1,20 @@
+.hex {
+    color:#008080;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hex_2 {
+    color: #BA55D3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.simple_hex {
+    color:#333;
+    font-style: italic;
+}
+
+.simple_hex_2 {
+    color: #564;
+    font-family: fantasy;
+}
+

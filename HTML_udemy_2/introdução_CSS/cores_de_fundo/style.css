@@ -1,0 +1,19 @@
+.bg {
+    background-color: #563;
+    color: yellow;
+}
+
+.bg_2 {
+    background-color: rgb(200, 42, 42);
+    color:#008080;
+}
+
+/*opacidade do fundo*/
+.bg_3 {
+    background-color: rgb(42, 200, 103);
+    opacity: 0.6;
+}
+/*mudando a opacidade do fundo com RGBA*/
+.bg_4 {
+    background-color: rgba(166, 200, 42, 0.4);
+}

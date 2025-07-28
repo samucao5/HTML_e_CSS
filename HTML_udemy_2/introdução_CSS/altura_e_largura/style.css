@@ -1,0 +1,11 @@
+.height_width {
+    height: 250px;
+    width: 125px;
+    background-color: green;
+}
+
+.height_width_2 {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}

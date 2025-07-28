@@ -1,0 +1,18 @@
+.not_centered_bg {
+    background-image: url(../centralizando_a_imagem_de_fundo/img/fogo.avif);
+    height: 400px;
+    width: 400px;
+    color:orange;
+}
+
+.centered_bg {
+    background-image: url(../centralizando_a_imagem_de_fundo/img/fogo.avif);
+    height: 400px;
+    width: 400px;
+    color:orange;
+}
+
+.centered_bg {
+    background-position: center;
+    background-size: cover;
+}

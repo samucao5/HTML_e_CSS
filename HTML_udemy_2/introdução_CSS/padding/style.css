@@ -1,0 +1,56 @@
+.sem_padding {
+    background-color: #042;
+    color: #fff;
+}
+/*e a distancia da borda*/
+.padding {
+    padding: 20px;
+    background-color: #111;
+    color:#fff;
+}
+/*padding individual*/
+/*mais customizado com a distacia das bordas*/
+.padding_individual {
+    background-color: #056;
+    color:#fff;
+    /*afastamento da borda de cima*/
+    padding-top: 15px;
+    /*afastamento da borda da esquerda*/
+    padding-left: 10px;
+    /*afastamento da borda da direita*/
+    padding-right: 20px;
+    /*afastamento da borda de baixo*/
+    padding-bottom: 15px;
+}
+
+/*shorthand padding*/
+.shorthand_padding {
+    background-color: #034;
+    color: #fff;
+    padding:9px 20px 30px 9px;
+}
+
+.shorthand_padding_2 {
+    background-color: #142;
+    color: #fff;
+    padding: 10px 20px;
+    /*10px -> cima e baixo*/
+    /*20px -> esquerda e direita*/
+}
+
+.sem_border_box {
+    background-color: #054;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border_box {
+    background-color: #084;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
