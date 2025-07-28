@@ -1,0 +1,15 @@
+.texto_alinhado {
+    color: #053;
+    text-align: right;
+}
+
+.texto_alinhado_2 {
+    color: #645;
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+    width: 300px;
+    border: 3px solid #378;
+}
