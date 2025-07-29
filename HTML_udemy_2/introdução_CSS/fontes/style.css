@@ -1,0 +1,61 @@
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.monospace {
+    font-family: monospace;
+}   
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+/*estilo de fonte*/
+
+.normal {
+    font-style: normal;
+}
+
+.italico {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+/*font weight*/
+
+.thin,.bold,.bolder {
+    font-family:Helvetica;
+}
+
+.thin{
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+/*font size*/
+
+.pequeno {
+    font-size: 100px;
+}
+
+.titulo {
+    font-size: 20px;
+}
