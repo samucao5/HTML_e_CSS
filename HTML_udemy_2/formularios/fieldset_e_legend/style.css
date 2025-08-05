@@ -1,0 +1,8 @@
+body{
+    font-family: arial;
+}
+div label,div input{
+    display: block;
+    padding-bottom:5px;
+    padding-top: 5px;
+}
