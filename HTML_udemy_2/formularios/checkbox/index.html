@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkbox</title>
+</head>
+<body>
+    <div>
+        <label for="opcoes">itens opcionais do carro: </label>
+        <div class="radio">
+            <!-- serve somente para uma opção -->
+            <!-- <input type="checkbox" name="opcoes"> -->
+             <input type="checkbox" name="opcoes[]" value="pneus_grandes">
+             <label for="pneus_grandes">pneus grandes</label>
+        </div>
+        <div class="radio">
+            <input type="checkbox" name="opcoes[]" value="som_automotivo">
+            <label for="som_automotivo">som automotivo</label>
+        </div>
+        <div class="radio">
+            <input type="checkbox" name="opcoes[]" value="radio">
+            <label for="radio">radio</label>
+        </div>
+    </div>
+</body>
+</html>
