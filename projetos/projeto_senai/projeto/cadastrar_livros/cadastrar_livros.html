@@ -3,42 +3,43 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<title> cadastrar_livros </title>
-		<center>
-		<img src="..\imagens\logo.png">
 		<link rel="stylesheet" href="..\CSS\style.css">
-		</center>
 	</head>
 
 	<body>
 		<header>
-			
-			<h1>cadastrar_livros</h1>
+			<div class="header_c">
+			<img src="..\imagens\logo.png">
+			<h1 class="header">Cadastrar Livros</h1>
+			</div>
 		</header>
-		<center>
+			<div class="c_livros">
 		<form>
-			<p><h3>titulo do livro:</h3></p>
+			<p><h3 class="titulo">titulo do livro:</h3></p>
 			<input type="text" placeholder="digite o titulo do livro">
 			<br/>
-			<p><h3>nome do autor:</h3></p>
+			<p><h3 class="autor">nome do autor:</h3></p>
 			<input type="text" placeholder="digite o nome do autor">
 			<br/>
-			<p><h3>adicione a capa do livro:</h3></p>
+			<p><h3 class="capa">adicione a capa do livro:</h3></p>
 			<input type="file">
 			<br/>
-			<input type="submit">
+			<input class="enviar" type="submit">
 
 		</form>
-		</center>
+			</div>
 		<footer>
 			<br/>
-			<div class = "home" >
+		<div class="icone_c">
+			<div class = "home_c" >
 			<a href="..\biblioteca.html"><img src="..\imagens\home.png"></a>
 			</div>
 
-			<div class = "listar_livros">
+			<div class = "listar_livros_c">
 			<a href="..\listar_livros\listar_livros.html"> <img src="..\imagens\lista_livro.png"> </a>
 			<p>listar livros </p>
 			</div>
+		</div>
 		 </footer>
 	</body>
 
