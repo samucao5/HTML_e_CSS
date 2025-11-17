@@ -11,7 +11,6 @@ body {
 
 .header_b{
     text-align: center;
-
 }
 
 .header_l{
@@ -28,7 +27,70 @@ body {
     text-align: center;
 }
 
+footer{
+    margin-top: 80px;
+    padding: 20px;
+    height: 100px;
+    width: auto;
+    display: flex;
+    text-align: center;
+}
+
+.home{
+    width: 450px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: #21b954;
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.home1{
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.cadastrar{
+    width: 450px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: #21b954;
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.cadastrar1{
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+}
+
+.lista{
+    text-align: center;
+    width: 450px;
+    height: 100px;
+    border: 1px solid #000000;
+    background-color: #21b954;
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.lista1{
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+}
+
 .c_livros {
+    margin-left: 350px;
+    margin-right: 350px;
     text-align: center;
     background-color: #8ae7a9;
     width: 300px;
@@ -37,63 +99,35 @@ body {
     border-radius: 20px;
 }
 
-footer{
-    margin-top: 200px;
-    border:  solid #000;
-    padding: 20px;
-    height: 200px;
-    width: auto;
-}
-
-.home_l, .home_c {
-    height:105px;
-    width:121px;
-    
-}
-
-.cadastrar_livros_l, .cadastrar_livros_b {
-    height: 105px;
-    width:128px;
-    margin-left: 300px;
-    margin-right: 200px;
-    margin-top: 100px;
-}
-
-.listar_livros_c, .listar_livros_b {
-    max-width: 105px;
-    max-height:121px;
-    margin-left: 300px;
-    margin-right: 200px;
-    margin-top: 40px;
-}
 
 .c_livros {
     font-size: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 0px;
-    padding-right: 0px;
 }
 
-.icone_l {
-    display: flex;
-}
-
-.icone_b{
-    display: flex;
-}   
-
-.icone_c {
-    display: flex;
-}
 
 .enviar{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 10px, 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 150px;
+    height: 30px;
     background-color: rgb(2, 104, 2);
     color:rgb(255, 255, 255);
     text-align: center;
     border: 1px solid #000;
+    border-radius: 30px;
+}
+
+.tbody{
+    width: 100px;
+    height: 100px;
+}
+
+.titulo_i {
+    text-align: center;
+    border-radius: 20px;
+}
+
+.autor_i {
+    text-align: center;
     border-radius: 20px;
 }
