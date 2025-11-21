@@ -5,6 +5,9 @@ body{
 }
 
 header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 250px;
     margin-right: 250px;
     margin-top: 100px;
@@ -16,20 +19,23 @@ header{
 
 header > .form{
     margin-top: 55px;
-    color: rgb(0, 92, 104);
+    color: rgb(62, 189, 62);
     text-align: center;
 }
 
 main{
     width: 1286px;
-    height: 600px;
+    height: 700px;
     margin-left: 250px;
     margin-right: 250px;
     border: 1px solid #000;
-    background-color: white;
+    background-color: #fff;
+    border-bottom: none;
 }
 
 main > .titulo{
+    display: flex;
+    flex-wrap: wrap;
     font-size: 17px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -38,6 +44,8 @@ main > .titulo{
 }
 
 main > .titulo_i{
+    box-shadow: none;
+    outline: none;
     padding-top: 15px;
     font-size: 15px;
     border-top: none;
@@ -50,6 +58,8 @@ main > .titulo_i{
 }
 
 main > .estado {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 17px;
     margin-left: 30px ;
 }
@@ -65,6 +75,9 @@ main > .estado_i{
 }
 
 main > .descricao{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 17px;
     margin-top: 30px;
     margin-left: 30px;
 }
@@ -80,26 +93,91 @@ main > .descricao_i{
 
 
 main > .genero{
-    margin-top: 30px;
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
     margin-left: 30px;
 }
 
 main > .generos{
     margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left: 30px;
 }
+
+main > .preco{
+    font-size: 17px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+main > .preco_i{
+    outline: none;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    padding: 5px;
+    font-size: 15px;
+}
+
+main > .imagem{
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+main > .imagem_i{
+    margin-left: 30px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+main > .reset{
+    margin-left: 30px;
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+main > .reset_i{
+    margin-left: 30px;
+}
+
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 1286px;
     height: 100px;
     margin-left: 250px;
     margin-right: 250px;
     border: 1px solid #000;
-    background-color: white;
+    background-color: #fff;
 }
+
 
 footer > .publicar{
-
-}
-
-footer > .reset{
-
+    margin-top: 20px;
+    width: 300px;
+    height: 70px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(62, 189, 62);
+    font-size: 30px;
 }
