@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto_input</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <h1 class="titulo"> venda seu livro</h1>
+</head>
+<body>
+    <header>
+        <h1 class="form">formulario</h1>
+    </header>
+
+    <main>
+        <label class="titulo" name="titulo">titulo do livro:</label>
+        <br>
+        <input type="text" class="titulo_i" name="titulo" placeholder="digite o titulo do livro" required>
+        <br>
+        <label class="estado" for="estado">estado do livro:</label>
+        <br>
+        <select name="estado" class="estado_i" required>
+            <option value="otimo estado">novo</option>
+            <option value="bom estado">bom estado</option>
+            <option value="conservado">conservado</option>
+            <option value="pessimo estado">pessimo estado</option>
+        </select>
+        <br>
+        <label class="descricao" for="descricao">descrição do livro:</label>
+        <br>
+        <textarea class="descricao_i" placeholder="faca uma descrição do livro"></textarea required>
+        <br>
+        <label for="genero" class="genero">genero do livro:</label>
+        <input type="checkbox" class="generos" value="fantasia">
+            <label for="fantasia">fantasia</label>
+        <input type="checkbox" class="generos" value="terror">
+            <label for="terror">terror</label>
+        <input type="checkbox" class="generos" value="aventura">
+            <label for="aventura">aventura</label>
+        <input type="checkbox" class="generos" value="suspense">
+            <label for="suspense">suspense</label>
+        <input type="checkbox" class="generos" value="romance">
+            <label for="romance">romance</label>
+        <input type="checkbox" class="generos" value="outro">
+            <label for="outros">outros</label>
+        <br>
+        <label class="preco" >preço do livro:</label>
+        <input class="preco" type="number" placeholder="digite o preco do livro">
+        
+    </main>
+
+    <footer>
+        <input class="publicar" type="submit" value="publicar">
+        <input class="reset" type="reset" value="apagar">
+    </footer>
+</body>
+</html>
