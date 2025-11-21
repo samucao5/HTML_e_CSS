@@ -18,6 +18,7 @@ header{
 }
 
 header > .form{
+    font-family: sans-serif;
     margin-top: 55px;
     color: rgb(62, 189, 62);
     text-align: center;
@@ -34,6 +35,7 @@ main{
 }
 
 main > .titulo{
+    font-family:serif;
     display: flex;
     flex-wrap: wrap;
     font-size: 17px;
@@ -58,6 +60,7 @@ main > .titulo_i{
 }
 
 main > .estado {
+    font-family:serif;
     display: flex;
     flex-wrap: wrap;
     font-size: 17px;
@@ -75,6 +78,7 @@ main > .estado_i{
 }
 
 main > .descricao{
+    font-family:serif;
     display: flex;
     flex-wrap: wrap;
     font-size: 17px;
@@ -83,6 +87,7 @@ main > .descricao{
 }
 
 main > .descricao_i{
+    outline: none;
     width: 400px;
     height: 100px;
     margin-top: 10px;
@@ -93,6 +98,7 @@ main > .descricao_i{
 
 
 main > .genero{
+    font-family:serif;
     font-size: 17px;
     display: flex;
     flex-wrap: wrap;
@@ -109,6 +115,7 @@ main > .generos{
 }
 
 main > .preco{
+    font-family:serif;
     font-size: 17px;
     margin-top: 10px;
     display: flex;
@@ -134,6 +141,7 @@ main > .preco_i{
 }
 
 main > .imagem{
+    font-family:serif;
     font-size: 17px;
     display: flex;
     flex-wrap: wrap;
@@ -147,17 +155,6 @@ main > .imagem_i{
     margin-bottom: 10px;
 }
 
-main > .reset{
-    margin-left: 30px;
-    font-size: 17px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px;
-}
-
-main > .reset_i{
-    margin-left: 30px;
-}
 
 footer{
     display: flex;
@@ -173,6 +170,7 @@ footer{
 
 
 footer > .publicar{
+    font-family: sans-serif;
     margin-top: 20px;
     width: 300px;
     height: 70px;
@@ -180,4 +178,12 @@ footer > .publicar{
     border-radius: 50px;
     background-color: rgb(62, 189, 62);
     font-size: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+footer > .publicar:hover{
+    background-color: #fff;
+    border: rgb(62, 189, 62);
+    color: rgb(62, 189, 62);
 }
