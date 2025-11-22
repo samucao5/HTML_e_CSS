@@ -1,0 +1,11 @@
+.wrap{
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 40px;
+    width: 33%;
+    border: 1px solid #000;
+}
