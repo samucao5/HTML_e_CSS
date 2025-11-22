@@ -1,0 +1,17 @@
+.box{
+    width: 250px;
+    height: 50px;
+    border: 1px solid #000;
+}
+
+.basis {
+    display: flex;
+}
+
+.basis .box{
+    flex-basis: 20px;
+}
+
+.basis #big{
+    flex-grow: 1;
+}
