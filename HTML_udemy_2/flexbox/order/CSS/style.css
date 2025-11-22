@@ -1,0 +1,21 @@
+.box{
+    width: 500px;
+    height: 50px;
+    border: 1px solid #000;
+}
+
+.order {
+    display: flex;
+}
+
+#one {
+    order: 1;
+}
+
+#two {
+    order: 2;
+}
+
+#three {
+    order: 3;
+}
