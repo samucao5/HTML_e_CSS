@@ -1,0 +1,16 @@
+.gap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #080;
+    gap: 10px;
+}
+
+.box{
+    height: 40px;
+    border: 1px solid #000;
+}
+
+.gap .box{
+    width: 32%;
+}
