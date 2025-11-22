@@ -1,0 +1,16 @@
+.box{
+    width: 500px;
+    height: 40px;
+    border: 1px solid #000;
+}
+
+.auto-alignment{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid #080;
+}
+
+.auto-alignment .dif{
+    align-self: center;
+}
